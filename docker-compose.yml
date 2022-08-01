@@ -20,6 +20,8 @@ services:
 #      - 9030:8001
     networks:
       - org-project
+    depends_on:
+      - org-project-db-redis
 
 networks:
   org-project:
