@@ -17,7 +17,7 @@ services:
     image: redislabs/redisinsight:latest
     restart: always
 #    ports:
-#      - 9030:8081
+#      - 9030:8001
     networks:
       - org-project
 
